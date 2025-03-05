@@ -131,11 +131,12 @@ html_theme_options = {
     },
     "show_version_warning_banner": True,
     "external_links": [
+      {"name": ".NET", "url": "https://microsoft.github.io/autogen/dotnet/"},
       {"name": "0.2 Docs", "url": "https://microsoft.github.io/autogen/0.2/"},
     ]
 }
 
-html_js_files = ["custom-icon.js", "banner-override.js"]
+html_js_files = ["custom-icon.js", "banner-override.js", "custom.js"]
 html_sidebars = {
     "packages/index": [],
     "user-guide/core-user-guide/**": ["sidebar-nav-bs-core"],
@@ -178,6 +179,7 @@ rediraffe_redirects = {
     "user-guide/core-user-guide/framework/command-line-code-executors.ipynb": "user-guide/core-user-guide/components/command-line-code-executors.ipynb",
     "user-guide/core-user-guide/framework/model-clients.ipynb": "user-guide/core-user-guide/components/model-clients.ipynb",
     "user-guide/core-user-guide/framework/tools.ipynb": "user-guide/core-user-guide/components/tools.ipynb",
+    "user-guide/agentchat-user-guide/tutorial/custom-agents.ipynb": "user-guide/agentchat-user-guide/custom-agents.ipynb",
 }
 
 
